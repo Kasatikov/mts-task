@@ -1,3 +1,3 @@
 # mts-task
 
-Зависимости: jQuery, requireJS, Underscore
+Зависимости (фронт): jQuery, requireJS, Underscore
