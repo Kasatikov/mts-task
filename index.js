@@ -31,6 +31,6 @@ app.get('/getUserApps', function (req, res) {
   res.send(user_apps);
 });
 
-app.listen(80, function () {
+app.listen(3000, function () {
   console.log('Example app listening on port 3000!');
 });
