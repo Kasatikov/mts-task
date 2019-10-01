@@ -2,7 +2,6 @@ define(['../js/templates'], function(templates) {
   'use strict';
 
     function renderUserApps(apps) {
-      debugger;
       var $target_elem = $('.grid_container'),
           grid_root_template = _.template(templates.grid_root_template),
           app_cards = '';
