@@ -13,7 +13,6 @@
   opacity: 0;
   visibility: hidden;
   transition:visibility 0s linear 0.1s,opacity 0.3s ease;
-
 }
 .modal.open {
   visibility:visible;
@@ -59,27 +58,27 @@
   word-break: break-all;
 }
 .app_name {
-    text-align: left;
-    word-break: break-word;
-    font: 17px/27px Arial,sans-serif;
-    font-weight: bold;
-    border-bottom: 1px solid #d6d6d6;
+  text-align: left;
+  word-break: break-word;
+  font: 17px/27px Arial,sans-serif;
+  font-weight: bold;
+  border-bottom: 1px solid #d6d6d6;
 }
 .app_description {
-    text-align: left;
-    word-break: break-word;
-    font: 15px/27px Arial,sans-serif;
-    color: #696969;
+  text-align: left;
+  word-break: break-word;
+  font: 15px/27px Arial,sans-serif;
+  color: #696969;
 }
 .modal__container textarea {
   width: 100%;
-margin: 0px;
-resize: none;
-font: 15px/27px Arial, sans-serif;
-padding: 0px;
-height: 32px;
-padding-left: 10px;
-border-radius: 4px;
+  margin: 0px;
+  resize: none;
+  font: 15px/27px Arial, sans-serif;
+  padding: 0px;
+  height: 32px;
+  padding-left: 10px;
+  border-radius: 4px;
 }
 .star {
   width: 22px;
@@ -88,16 +87,16 @@ border-radius: 4px;
 }
 .star-wrapper {
   float: left;
-    margin-top: 20px;
-    margin-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .rating {
   float: left;
-font-size: 24px;
-font: 24px/27px Arial,sans-serif;
-font-weight: 700;
-margin-top: -3px;
-margin-right: 20px;
+  font-size: 24px;
+  font: 24px/27px Arial,sans-serif;
+  font-weight: 700;
+  margin-top: -3px;
+  margin-right: 20px;
 }
 
 
