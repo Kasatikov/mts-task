@@ -2,20 +2,20 @@ nav {
   width: 100%;
   height: 60px;
   font: 13px/27px Arial,sans-serif;
-	background: #ffffff;
+  background: #ffffff;
   border-bottom: 2px solid #e8e8e8;
 }
 body {
-	background-color: #eeeeee;
+  background-color: #eeeeee;
 }
 .navbar-item {
-	float: right;
+  float: right;
   line-height: 60px;
   height: 100%;
   margin-right: 20px;
 }
 .navbar-item__logo {
-	float: left;
+  float: left;
   height: 60px;
   width: 160px;
   margin-left: 20px;
@@ -26,20 +26,20 @@ body {
   height: auto;
 }
 .navbar-item__profile span {
-	cursor: pointer;
-	color: #5f5f5f;
+  cursor: pointer;
+  color: #5f5f5f;
 }
 .navbar-item__profile span:hover {
   color: black;
 }
 .apps_grid {
-	display: grid;
+  display: grid;
   grid-template-rows: repeat(4, 1fr);
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 2vw;
   font-family: Arial,sans-serif;
   row-gap: 4vw;
-	height: 280px;
+  height: 280px;
 }
 .apps_grid > div {
   font-size: 2vw;
@@ -49,27 +49,27 @@ body {
   border-radius: 4px;
   width: 240px;
   margin: 0 auto;
-	cursor: pointer;
-	background-color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.5);
   transition: all 1s ease;
 }
 .apps-category {
-	font: 29px/27px Arial,sans-serif;
+  font: 29px/27px Arial,sans-serif;
   margin-left: 16px;
   margin-bottom: 15px;
 }
 .grid-item__logo {
-	margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 .grid-item__logo > img {
-	border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
 }
 .grid-item__name {
   font: 16px/27px Arial,sans-serif;
   word-wrap: break-word;
   word-break: normal !important;
-	padding-bottom: 10px;
+  padding-bottom: 10px;
 }
 .apps_grid__item:hover  {
   background-color: rgba(201, 237, 255, 0.8);
@@ -77,10 +77,10 @@ body {
 
 @media (max-width: 600px) {
   .apps_grid {
-  	display: grid;
+    display: grid;
     grid-template-rows: repeat(1, 1fr);
     grid-template-columns: repeat(1, 1fr);
-  	height: auto;
+    height: auto;
   }
   .apps-category {
     margin-top: 15px;
