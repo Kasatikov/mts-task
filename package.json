@@ -10,7 +10,7 @@
   "author": "sergey kasatikov",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "require-css": "^0.1.10"
   }
 }
